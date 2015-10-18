@@ -6,10 +6,7 @@ var moment = require('moment');
 router.get('/', function(req, res, next) {
   res.render('index', {
     title: 'Magic Mirror',
-    name: 'Roy Hoeijmakers',
     time: moment().format('H:mm'),
-    uur: moment().format('H'),
-    min: moment().format('mm'),
     day: moment().format('dddd MMM Do YYYY'),
     year: moment().format('YYYY')
   });
