@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.7">
   <diagram name="Pagina-1" id="_MS5uMN3BVn3eXZe9uA_">
-    <mxGraphModel>
+    <mxGraphModel dx="1590" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ksKu6d5S_6dnysmGutsk-1" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.router;" vertex="1" parent="1">
+          <mxGeometry x="880" y="760" width="55" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ksKu6d5S_6dnysmGutsk-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="ksKu6d5S_6dnysmGutsk-5" target="ksKu6d5S_6dnysmGutsk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="908" y="450" as="sourcePoint" />
+            <mxPoint x="470" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ksKu6d5S_6dnysmGutsk-3" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.router;" vertex="1" parent="1">
+          <mxGeometry x="880.5" y="520" width="55" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ksKu6d5S_6dnysmGutsk-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="ksKu6d5S_6dnysmGutsk-3" target="ksKu6d5S_6dnysmGutsk-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="908" y="477" as="sourcePoint" />
+            <mxPoint x="908" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ksKu6d5S_6dnysmGutsk-5" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.firewall;" vertex="1" parent="1">
+          <mxGeometry x="870" y="620" width="75" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ksKu6d5S_6dnysmGutsk-7" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.switch;" vertex="1" parent="1">
+          <mxGeometry x="861.5" y="360" width="92" height="41.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ksKu6d5S_6dnysmGutsk-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="ksKu6d5S_6dnysmGutsk-3" target="ksKu6d5S_6dnysmGutsk-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="350" as="sourcePoint" />
+            <mxPoint x="470" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
